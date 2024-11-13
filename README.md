@@ -2,21 +2,21 @@
 
 This project consists of two Python applications for building customized resumes. One generates a resume in HTML format, and the other generates a resume in DOCX format by using user inputs, saving the data in an Excel file, and creating the resume using a template.
 
-## Project 1: HTML Resume Generator
+# Project 1: HTML Resume Generator
 
-### Features:
+## Features:
 - A simple GUI built using Tkinter.
 - User can enter their personal details, professional summary, skills, education, experience, and more.
 - Allows the user to upload a profile picture.
 - Generates a clean HTML file that can be opened in a web browser.
 
-### How to Use:
+## How to Use:
 1. Run the `html_resume.py` script.
 2. Fill in the form with your details.
 3. Click on "Select Profile Photo" to upload a picture.
 4. Click "Generate HTML Resume" to create the resume.
 
-### Dependencies:
+## Dependencies:
 - `tkinter` (for GUI)
 - `Pillow` (for image handling)
 
