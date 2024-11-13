@@ -1,0 +1,7 @@
+This project is a Python-based application that creates custom resumes using a simple graphical interface built with tkinter. The program allows users to input their details, such as full name, phone number, email, location, and professional summary, and generate a formatted HTML resume that includes a profile photo.
+
+The application opens a GUI where users can enter personal information and select a profile photo from their computer. The photo is resized and displayed within the interface using the Pillow library. Once all required fields are filled out and a photo is selected, users can click a button to generate an HTML file called resume.html. This file includes the entered data and profile picture, formatted with basic HTML and CSS for clean display in any web browser.
+
+The code includes error handling to ensure that users are alerted if any fields are left empty or if no photo is chosen. The application relies on Python’s tkinter for the interface and Pillow for image processing. To install Pillow, use the command pip install pillow.
+
+Running the script will launch the interface where users can easily input their data, choose a photo, and create their resume with just a few clicks. The generated resume file will be saved in the current directory and can be opened in any browser for viewing or further editing.
